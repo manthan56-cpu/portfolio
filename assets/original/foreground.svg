@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 780" fill="none">
+  <!-- hanging cables -->
+  <g stroke="#090909" stroke-width="10" fill="none" stroke-linecap="round">
+    <path d="M120 0 Q150 180 120 340 Q96 470 150 560"/>
+    <path d="M250 0 Q220 200 260 360 Q300 500 250 600"/>
+    <path d="M700 0 Q740 190 700 350"/>
+  </g>
+
+  <!-- foliage mass -->
+  <path d="M0 780 V430 Q60 380 130 420 Q170 320 260 370 Q330 300 400 380 Q470 330 520 420 Q600 380 660 460 Q740 430 790 520 Q860 520 900 600 V780 Z"
+        fill="#090909" stroke="#090909" stroke-width="10" stroke-linejoin="round"/>
+  <g fill="#011d25" fill-opacity=".45">
+    <circle cx="180" cy="560" r="46"/>
+    <circle cx="330" cy="520" r="38"/>
+    <circle cx="480" cy="580" r="52"/>
+    <circle cx="650" cy="540" r="42"/>
+    <circle cx="810" cy="620" r="48"/>
+  </g>
+
+  <!-- potted plant -->
+  <g stroke="#090909" stroke-width="9" stroke-linejoin="round">
+    <path d="M640 470 L790 470 L768 620 L662 620 Z" fill="#ed4b23"/>
+    <path d="M660 470 Q600 380 640 300 Q690 360 660 470 Z" fill="#f5c928"/>
+    <path d="M715 470 Q680 360 730 280 Q780 360 740 470 Z" fill="#f5edd8"/>
+    <path d="M770 470 Q830 390 800 320 Q750 390 770 470 Z" fill="#f5c928"/>
+  </g>
+</svg>

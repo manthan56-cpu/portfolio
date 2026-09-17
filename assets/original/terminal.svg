@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 760" fill="none">
+  <defs>
+    <pattern id="scan" width="8" height="14" patternUnits="userSpaceOnUse">
+      <rect width="8" height="6" fill="#f5edd8" fill-opacity=".06"/>
+    </pattern>
+  </defs>
+
+  <!-- cable -->
+  <path d="M120 690 q-70 0 -70 -60 t70 -60" stroke="#090909" stroke-width="12" fill="none" stroke-linecap="round"/>
+
+  <g stroke="#090909" stroke-width="10" stroke-linejoin="round">
+    <rect x="70" y="60" width="760" height="520" rx="34" fill="#f5edd8"/>
+    <rect x="110" y="100" width="680" height="400" rx="18" fill="#090909"/>
+    <rect x="136" y="126" width="628" height="348" rx="10" fill="#011d25"/>
+    <path d="M330 580 L570 580 L610 690 L290 690 Z" fill="#f5c928"/>
+  </g>
+
+  <rect x="136" y="126" width="628" height="348" rx="10" fill="url(#scan)"/>
+
+  <!-- prompt -->
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-weight="700" font-size="44">
+    <text x="170" y="196" fill="#fbff00">&gt; build --ship</text>
+    <text x="170" y="256" fill="#f5edd8">packing assets…</text>
+    <text x="170" y="316" fill="#f5c928">transpiling 42 modules</text>
+    <text x="170" y="376" fill="#ed4b23">0 errors · 0 warnings</text>
+    <text x="170" y="436" fill="#fbff00">✓ deployed</text>
+  </g>
+  <rect x="474" y="406" width="26" height="38" fill="#fbff00"/>
+
+  <!-- knobs -->
+  <g stroke="#090909" stroke-width="8">
+    <circle cx="240" cy="630" r="26" fill="#ed4b23"/>
+    <circle cx="330" cy="630" r="26" fill="#f5c928"/>
+    <circle cx="420" cy="630" r="26" fill="#103b8e"/>
+  </g>
+  <g fill="#f5edd8">
+    <rect x="600" y="612" width="150" height="36" rx="18"/>
+  </g>
+</svg>

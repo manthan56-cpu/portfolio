@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 900" fill="none">
+  <defs>
+    <pattern id="grain" width="14" height="14" patternUnits="userSpaceOnUse">
+      <circle cx="4" cy="4" r="2.4" fill="#090909" fill-opacity=".18"/>
+    </pattern>
+  </defs>
+
+  <!-- steam -->
+  <g stroke="#f5edd8" stroke-width="12" stroke-linecap="round" fill="none" opacity=".85">
+    <path d="M255 320 q-40 -60 0 -120 q40 -60 0 -120"/>
+    <path d="M345 300 q-40 -66 0 -132 q40 -66 0 -132"/>
+    <path d="M435 320 q-40 -60 0 -120 q40 -60 0 -120"/>
+  </g>
+
+  <!-- saucer -->
+  <g stroke="#090909" stroke-width="12" stroke-linejoin="round">
+    <ellipse cx="350" cy="772" rx="270" ry="50" fill="#f5c928"/>
+  </g>
+
+  <!-- handle -->
+  <path d="M512 470 q160 26 150 132 t-150 128" stroke="#090909" stroke-width="34" fill="none" stroke-linecap="round"/>
+  <path d="M512 470 q160 26 150 132 t-150 128" stroke="#f5edd8" stroke-width="16" fill="none" stroke-linecap="round"/>
+
+  <!-- body -->
+  <g stroke="#090909" stroke-width="12" stroke-linejoin="round">
+    <path d="M170 392 H512 L482 752 H200 Z" fill="#f5edd8"/>
+    <ellipse cx="341" cy="392" rx="171" ry="42" fill="#f5c928"/>
+    <ellipse cx="341" cy="392" rx="140" ry="32" fill="#7a1c1c"/>
+  </g>
+
+  <path d="M170 392 H512 L482 752 H200 Z" fill="url(#grain)"/>
+
+  <!-- </> mark -->
+  <text x="341" y="640" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace"
+        font-weight="700" font-size="128" fill="#a1001a">&lt;/&gt;</text>
+
+  <!-- beans -->
+  <g fill="#7a1c1c">
+    <ellipse cx="132" cy="800" rx="26" ry="18" transform="rotate(-18 132 800)"/>
+    <ellipse cx="580" cy="796" rx="24" ry="17" transform="rotate(14 580 796)"/>
+  </g>
+</svg>

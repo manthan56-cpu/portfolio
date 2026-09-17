@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" fill="none">
+  <defs>
+    <pattern id="dots" width="18" height="18" patternUnits="userSpaceOnUse">
+      <circle cx="5" cy="5" r="2.8" fill="#f5edd8" fill-opacity=".14"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="900" fill="#103b8e"/>
+  <rect width="1600" height="900" fill="url(#dots)"/>
+
+  <g stroke="#f5c928" stroke-width="8" stroke-linecap="round">
+    <path d="M300 640 L620 300"/>
+    <path d="M620 300 L980 520"/>
+    <path d="M980 520 L1320 240"/>
+    <path d="M620 300 L760 700"/>
+    <path d="M980 520 L520 200"/>
+  </g>
+
+  <g stroke="#090909" stroke-width="10">
+    <circle cx="300" cy="640" r="66" fill="#f5edd8"/>
+    <circle cx="620" cy="300" r="86" fill="#f5c928"/>
+    <circle cx="980" cy="520" r="66" fill="#ed4b23"/>
+    <circle cx="1320" cy="240" r="56" fill="#f5edd8"/>
+    <circle cx="760" cy="700" r="50" fill="#f5c928"/>
+    <circle cx="520" cy="200" r="42" fill="#ed4b23"/>
+  </g>
+
+  <rect x="90" y="90" width="380" height="120" rx="16" fill="#090909" stroke="#f5c928" stroke-width="8"/>
+  <g fill="#f5edd8">
+    <rect x="130" y="128" width="230" height="18" rx="9"/>
+    <rect x="130" y="166" width="150" height="18" rx="9"/>
+  </g>
+
+  <text x="90" y="838" font-family="Helvetica, Arial, sans-serif" font-weight="700" font-size="150"
+        fill="none" stroke="#f5edd8" stroke-width="5" letter-spacing="6">PROJECT ATLAS</text>
+</svg>

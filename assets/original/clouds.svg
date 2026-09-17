@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 460" fill="none">
+  <defs>
+    <pattern id="halftone" width="12" height="12" patternUnits="userSpaceOnUse">
+      <circle cx="3.5" cy="3.5" r="2.2" fill="#090909" fill-opacity=".16"/>
+    </pattern>
+  </defs>
+  <g stroke="#090909" stroke-width="6" stroke-linejoin="round">
+    <path d="M70 330 Q70 250 150 250 Q160 170 250 178 Q305 118 390 160 Q470 158 480 250 Q545 262 545 330 Z" fill="#f5edd8"/>
+    <path d="M470 330 Q470 268 535 268 Q545 205 615 210 Q660 165 725 198 Q790 196 798 268 Q850 278 850 330 Z" fill="#fad68e"/>
+    <path d="M790 330 Q790 275 850 275 Q858 220 920 224 Q960 186 1018 214 Q1072 212 1078 275 Q1120 284 1120 330 Z" fill="#f5edd8"/>
+  </g>
+  <g fill="url(#halftone)">
+    <path d="M70 330 Q70 250 150 250 Q160 170 250 178 Q305 118 390 160 Q470 158 480 250 Q545 262 545 330 Z"/>
+    <path d="M470 330 Q470 268 535 268 Q545 205 615 210 Q660 165 725 198 Q790 196 798 268 Q850 278 850 330 Z"/>
+    <path d="M790 330 Q790 275 850 275 Q858 220 920 224 Q960 186 1018 214 Q1072 212 1078 275 Q1120 284 1120 330 Z"/>
+  </g>
+</svg>

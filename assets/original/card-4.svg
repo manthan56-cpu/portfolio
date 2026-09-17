@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" fill="none">
+  <defs>
+    <pattern id="dots" width="18" height="18" patternUnits="userSpaceOnUse">
+      <circle cx="5" cy="5" r="2.8" fill="#090909" fill-opacity=".16"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="900" fill="#fad68e"/>
+  <rect width="1600" height="900" fill="url(#dots)"/>
+
+  <path d="M1240 180 a180 180 0 1 0 150 280 a220 220 0 1 1 -150 -280 Z" fill="#f5edd8" stroke="#090909" stroke-width="12"/>
+
+  <g fill="none" stroke="#090909" stroke-width="4" stroke-opacity=".35">
+    <path d="M0 240 H1600"/><path d="M0 420 H1600"/><path d="M0 600 H1600"/>
+  </g>
+
+  <g stroke="#090909" stroke-width="14" stroke-linejoin="round">
+    <rect x="250" y="150" width="420" height="700" rx="56" fill="#090909"/>
+    <rect x="290" y="200" width="340" height="600" rx="30" fill="#011d25"/>
+  </g>
+  <circle cx="460" cy="782" r="26" fill="#f5c928"/>
+  <rect x="410" y="170" width="100" height="14" rx="7" fill="#f5c928"/>
+
+  <g stroke-width="16" stroke-linecap="round">
+    <path d="M350 320 H570" stroke="#fbff00"/>
+    <path d="M350 400 H500" stroke="#f5edd8"/>
+    <path d="M350 480 H560" stroke="#f5c928"/>
+    <path d="M350 560 H470" stroke="#ed4b23"/>
+  </g>
+
+  <g font-family="Helvetica, Arial, sans-serif" font-weight="700" font-size="140" fill="none"
+     stroke="#090909" stroke-width="5" letter-spacing="4">
+    <text x="820" y="700">QUIET</text>
+    <text x="820" y="840">HOURS</text>
+  </g>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2400 800" fill="none">
+  <g fill="#090909" fill-opacity=".22">
+    <circle cx="140" cy="392" r="14"/><circle cx="240" cy="376" r="18"/><circle cx="350" cy="368" r="12"/>
+    <circle cx="470" cy="372" r="20"/><circle cx="590" cy="366" r="14"/><circle cx="710" cy="358" r="18"/>
+    <circle cx="830" cy="356" r="12"/><circle cx="950" cy="352" r="20"/><circle cx="1070" cy="350" r="16"/>
+    <circle cx="1190" cy="348" r="12"/><circle cx="1310" cy="352" r="18"/><circle cx="1430" cy="356" r="14"/>
+    <circle cx="1550" cy="358" r="20"/><circle cx="1670" cy="364" r="12"/><circle cx="1790" cy="368" r="16"/>
+    <circle cx="1910" cy="374" r="20"/><circle cx="2030" cy="380" r="14"/><circle cx="2150" cy="386" r="18"/>
+    <circle cx="2270" cy="390" r="12"/>
+  </g>
+
+  <path d="M0 480 Q300 380 600 462 T1200 452 T1800 472 T2400 432 V800 H0 Z" fill="#7a1c1c" fill-opacity=".5"/>
+  <path d="M0 580 Q300 500 600 572 T1200 562 T1800 582 T2400 542 V800 H0 Z" fill="#a1001a" fill-opacity=".72"/>
+  <path d="M0 686 Q300 616 600 676 T1200 666 T1800 686 T2400 646 V800 H0 Z" fill="#090909"/>
+
+  <g stroke="#f5edd8" stroke-width="6" stroke-linecap="round" fill="none" opacity=".5">
+    <path d="M0 540 Q300 460 600 532 T1200 522 T1800 542 T2400 502"/>
+    <path d="M0 640 Q300 570 600 630 T1200 620 T1800 640 T2400 600"/>
+  </g>
+</svg>

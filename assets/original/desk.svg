@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" fill="none">
+  <defs>
+    <pattern id="grain" width="16" height="16" patternUnits="userSpaceOnUse">
+      <circle cx="4" cy="4" r="2.6" fill="#090909" fill-opacity=".16"/>
+    </pattern>
+  </defs>
+
+  <!-- desk slab -->
+  <g stroke="#090909" stroke-width="10" stroke-linejoin="round">
+    <rect x="70" y="640" width="1060" height="70" fill="#7a1c1c"/>
+    <rect x="130" y="710" width="60" height="180" fill="#a1001a"/>
+    <rect x="1010" y="710" width="60" height="180" fill="#a1001a"/>
+  </g>
+  <rect x="70" y="640" width="1060" height="70" fill="url(#grain)"/>
+
+  <!-- monitor -->
+  <g stroke="#090909" stroke-width="10" stroke-linejoin="round">
+    <rect x="360" y="150" width="430" height="410" rx="26" fill="#f5edd8"/>
+    <rect x="395" y="185" width="360" height="300" fill="#011d25"/>
+    <rect x="560" y="560" width="46" height="60" fill="#090909"/>
+    <rect x="470" y="612" width="226" height="30" rx="14" fill="#090909"/>
+  </g>
+  <!-- code lines on screen -->
+  <g stroke-linecap="round" stroke-width="14">
+    <path d="M425 230 H520" stroke="#fbff00"/>
+    <path d="M545 230 H600" stroke="#f5edd8"/>
+    <path d="M455 278 H640" stroke="#f5c928"/>
+    <path d="M455 326 H580" stroke="#ed4b23"/>
+    <path d="M425 374 H690" stroke="#f5edd8"/>
+    <path d="M455 422 H610" stroke="#f5c928"/>
+    <path d="M425 452 H500" stroke="#fbff00"/>
+  </g>
+
+  <!-- keyboard -->
+  <g stroke="#090909" stroke-width="9" stroke-linejoin="round">
+    <rect x="215" y="548" width="380" height="94" rx="12" fill="#f5edd8"/>
+  </g>
+  <g fill="#090909" fill-opacity=".55">
+    <rect x="240" y="572" width="30" height="22" rx="4"/><rect x="286" y="572" width="30" height="22" rx="4"/><rect x="332" y="572" width="30" height="22" rx="4"/><rect x="378" y="572" width="30" height="22" rx="4"/><rect x="424" y="572" width="30" height="22" rx="4"/><rect x="470" y="572" width="30" height="22" rx="4"/><rect x="516" y="572" width="30" height="22" rx="4"/>
+    <rect x="262" y="606" width="30" height="22" rx="4"/><rect x="308" y="606" width="30" height="22" rx="4"/><rect x="354" y="606" width="30" height="22" rx="4"/><rect x="400" y="606" width="108" height="22" rx="4"/><rect x="524" y="606" width="30" height="22" rx="4"/>
+  </g>
+
+  <!-- mug -->
+  <g stroke="#090909" stroke-width="9" stroke-linejoin="round">
+    <path d="M700 552 H830 V638 H700 Z" fill="#ed4b23"/>
+    <path d="M830 578 q42 0 42 30 t-42 30" fill="none"/>
+  </g>
+  <g stroke="#f5edd8" stroke-width="9" stroke-linecap="round" fill="none" opacity=".9">
+    <path d="M742 530 q-14 -22 2 -42"/>
+    <path d="M788 528 q14 -24 -2 -46"/>
+  </g>
+
+  <!-- lamp -->
+  <g stroke="#090909" stroke-width="10" stroke-linejoin="round">
+    <rect x="905" y="600" width="130" height="40" rx="10" fill="#f5c928"/>
+    <path d="M970 600 L970 380 L840 300" fill="none"/>
+    <path d="M780 268 L920 340 L780 340 Z" fill="#ed4b23"/>
+  </g>
+  <path d="M800 344 L900 344 L880 430 L820 430 Z" fill="#f5c928" opacity=".45"/>
+</svg>

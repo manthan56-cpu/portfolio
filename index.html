@@ -1,0 +1,848 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Manthan Rajput — Creative Developer & Systems Architect. Shipped products, interactive systems, and high-performance web experiences.">
+  <title>Manthan Rajput — Creative Developer & Systems Architect</title>
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,700;1,800&family=Bree+Serif&family=Dela+Gothic+One&family=Rye&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Grain overlay for authentic silkscreen/paper texture -->
+  <div class="screen-grain" aria-hidden="true"></div>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- STICKY RETRO NAVBAR -->
+  <header class="site-nav">
+    <a class="nav-brand" href="#hero" aria-label="Manthan Rajput — Home">
+      <span class="brand-monogram">MR</span>
+      <span class="brand-spark">✦</span>
+      <span class="brand-sub">DEV // ARCHITECT</span>
+    </a>
+    
+    <div class="nav-availability-badge">
+      <span class="live-dot"></span>
+      <span class="avail-text">AVAILABLE FOR ROLES & CONTRACTS</span>
+    </div>
+
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Toggle navigation menu">
+      <span class="hamburger-bar"></span>
+      <span class="hamburger-bar"></span>
+      <span class="hamburger-bar"></span>
+    </button>
+
+    <nav id="nav-links" class="nav-links" aria-label="Primary Navigation">
+      <a href="#about" class="nav-link">About</a>
+      <a href="#work" class="nav-link">Work</a>
+      <a href="#stack" class="nav-link">Stack</a>
+      <a href="#lab" class="nav-link">Showcase</a>
+      <a href="#stats" class="nav-link">Proof</a>
+      <a href="#journey" class="nav-link">Journey</a>
+      <a class="nav-cta" href="mailto:hello@example.com">LET'S TALK ↗</a>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <!-- =========================================================================
+         1 · HERO — Multi-Planar Parallax Stage Diorama
+         ========================================================================= -->
+    <section id="hero" class="hero" aria-labelledby="hero-title">
+      <!-- Sky and midground foliage -->
+      <img class="hero-clouds" src="assets/Clouds-D6KNSr7B.webp" alt="Atmospheric sky clouds" loading="eager">
+      <img class="hero-back-tree" src="assets/back_tree-znoWUF2j.webp" alt="" aria-hidden="true">
+      <img class="hero-flame" src="assets/flame-DSDu3oM5.webp" alt="" aria-hidden="true">
+      <img class="hero-flame-overlay" src="assets/flame-DSDu3oM5.webp" alt="" aria-hidden="true">
+
+      <!-- Monument and transit -->
+      <img class="hero-india-gate" src="assets/India_Gate-UkYp4rkS.webp" alt="India Gate monument silhouette" loading="eager">
+      <div class="hero-bridge-wrap">
+        <img class="hero-bridge" src="assets/Bridge-CoYAqr0d.webp" alt="" aria-hidden="true">
+        <img class="hero-metro" src="assets/Metro-YBQVRwar.webp" alt="Delhi Metro train moving across the bridge">
+      </div>
+
+      <!-- Foreground foliage framing -->
+      <img class="hero-tree" src="assets/tree-DUTfgfH8.webp" alt="" aria-hidden="true">
+      <img class="hero-front-trees" src="assets/Front_Trees-D7SrcUBK.webp" alt="" aria-hidden="true">
+
+      <!-- Hero Typography & Identity -->
+      <div class="hero-lockup">
+        <div class="hero-badge-pill">
+          <span class="hero-edition-tag">EDITION 2026 // VOL. 01</span>
+          <span class="hero-spark">✦</span>
+          <span class="hero-geo">NEW DELHI, IN</span>
+        </div>
+        <h1 id="hero-title" class="hero-title">
+          <span class="hero-name-primary">MANTHAN</span>
+          <span class="hero-name-secondary">RAJPUT</span>
+        </h1>
+        <p class="hero-role-banner">FULL STACK ARCHITECT ✦ CREATIVE DEVELOPER</p>
+      </div>
+
+      <div class="hero-meta">
+        <p class="hero-pitch">Engineering high-impact web systems with deep technical clarity, kinetic tactile motion, and zero runtime compromise.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#work">
+            <span>EXPLORE SHIPPED WORK</span>
+            <i class="btn-arrow">→</i>
+          </a>
+          <a class="hero-quiet-link" href="#stack">
+            <span>VIEW TECH TOOLKIT</span>
+            <span class="quiet-spark">✦</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Interactive Concentric Vinyl Record Navigation -->
+      <div class="record-nav" aria-label="Quick jump section wheel">
+        <div class="record-disc-wrap">
+          <a class="disc disc-work" href="#work" title="Jump to Selected Work">
+            <img src="assets/events-disc-BfvfyK5J.svg" alt="Work Vinyl Record" class="disc-svg">
+            <span class="disc-label">01 // WORK</span>
+          </a>
+          <a class="disc disc-about" href="#about" title="Jump to Engineering Manifesto">
+            <img src="assets/cap-disc-BfwHjXVo.svg" alt="About Vinyl Record" class="disc-svg">
+            <span class="disc-label">02 // ABOUT</span>
+          </a>
+          <a class="disc disc-stack" href="#stack" title="Jump to Tech Stack">
+            <img src="assets/crv-disc-C-ayOWch.svg" alt="Stack Vinyl Record" class="disc-svg">
+            <span class="disc-label">03 // STACK</span>
+          </a>
+          <a class="disc disc-journey" href="#journey" title="Jump to Career Journey">
+            <img src="assets/entry-disc-BjWHm4ob.svg" alt="Journey Vinyl Record" class="disc-svg">
+            <span class="disc-label">04 // JOURNEY</span>
+          </a>
+          <a class="disc disc-contact" href="mailto:hello@example.com" title="Get in touch via Email">
+            <img src="assets/register-disc-B9Odx-H7.svg" alt="Contact Vinyl Record" class="disc-svg">
+            <span class="disc-label">HIRE ME</span>
+          </a>
+          <a class="disc disc-centre" href="#hero" title="Back to Top">
+            <span class="centre-hub">MR</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Scroll cue -->
+      <div class="hero-scroll-indicator" aria-hidden="true">
+        <span class="scroll-mouse"></span>
+        <span class="scroll-txt">SCROLL TO UNPACK DRAWERS</span>
+        <span class="scroll-arrow">↓</span>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         2 · DRAWER 2 — Deep Petrol Teal Manifesto ("A Riot of Code")
+         ========================================================================= -->
+    <section id="about" class="drawer drawer-teal" aria-labelledby="manifesto-title">
+      <div class="feather-field" aria-hidden="true"></div>
+      
+      <!-- Continuous marquee ribbon -->
+      <div class="teal-ribbon" aria-hidden="true">
+        <div class="ribbon-track">
+          <span>DISTRIBUTED SYSTEMS ✦ TACTILE MOTION ✦ CLEAN ARCHITECTURE ✦ COMPILER PERFORMANCE ✦ AI AGENTS ✦ ACCESSIBLE CRAFT ✦ ZERO RUNTIME JANK ✦</span>
+          <span>DISTRIBUTED SYSTEMS ✦ TACTILE MOTION ✦ CLEAN ARCHITECTURE ✦ COMPILER PERFORMANCE ✦ AI AGENTS ✦ ACCESSIBLE CRAFT ✦ ZERO RUNTIME JANK ✦</span>
+        </div>
+      </div>
+
+      <div class="teal-copy">
+        <p class="kicker gold">01 // Point of View & Ethos</p>
+        <h2 id="manifesto-title">A RIOT OF<br><em>CODE</em>, BUILT<br>WITH REASON.</h2>
+        <p class="teal-deck">I don't choose between expressive art direction and rock-solid systems engineering. Software should be bold enough to be remembered, clean enough to be audited, and fast enough to feel invisible.</p>
+        
+        <div class="teal-pillars">
+          <div class="pillar-pill">
+            <span class="pillar-num">01</span>
+            <span class="pillar-txt">Resilient Systems</span>
+          </div>
+          <div class="pillar-pill">
+            <span class="pillar-num">02</span>
+            <span class="pillar-txt">Kinetic Micro-Interactions</span>
+          </div>
+          <div class="pillar-pill">
+            <span class="pillar-num">03</span>
+            <span class="pillar-txt">Radical Simplicity</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Expressive Heritage Crest Illustration -->
+      <div class="teal-illustration-crest" aria-hidden="true">
+        <div class="crest-mandala"></div>
+        <div class="crest-monogram-badge">
+          <span class="crest-tag">FOUNDATIONS</span>
+          <span class="crest-letters">MR</span>
+          <span class="crest-date">EST. 2022</span>
+        </div>
+        <div class="crest-floating-flairs">
+          <span class="flair flair-1">✦</span>
+          <span class="flair flair-2">✦</span>
+          <span class="flair flair-3">✦</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         3 · DRAWER 4 — Crimson Zine & Broadside Newspaper Clippings
+         ========================================================================= -->
+    <section id="work" class="drawer drawer-crimson" aria-labelledby="work-title">
+      <!-- Torn paper edges -->
+      <img class="paper-edge-edge paper-top" src="assets/paper-top-7troaELH.webp" alt="" aria-hidden="true">
+      <img class="paper-edge-edge paper-bottom" src="assets/paper-bottom-faSUckG5.webp" alt="" aria-hidden="true">
+
+      <!-- Header with SVG Banner -->
+      <div class="crimson-head">
+        <img class="spilling-tea-svg" src="assets/spilling-the-tea-DTVgk97G.svg" alt="Spilling the Tea">
+        <img class="all-riot-svg" src="assets/All_the_riot_that's_fit_to_print-B7OeqEVu.svg" alt="All the riot that's fit to print">
+        <p class="kicker gold work-kicker">02 // Selected Case Studies</p>
+        <h2 id="work-title">SHIPPED TO<br><span>PRODUCTION</span></h2>
+      </div>
+
+      <!-- 2x2 Tilted Broadside Newspaper Clippings -->
+      <div class="newsclippings">
+        <!-- Card 1 -->
+        <article class="clipping clip-1">
+          <div class="clip-header">
+            <span class="clip-newspaper-title">THE DAILY DISPATCH</span>
+            <span class="clip-edition">ED. 2026 // AI</span>
+          </div>
+          <p class="clip-meta">AI WORKSPACE · LIVE PRODUCT</p>
+          <h3>StudyPlanner OS</h3>
+          <p class="clip-desc">An adaptive cognitive workspace converting complex multi-week curricula into calibrated daily execution graphs with real-time feedback loops.</p>
+          <div class="clip-tags">
+            <span>Next.js 15</span>
+            <span>TypeScript</span>
+            <span>FastAPI</span>
+            <span>Tailwind</span>
+          </div>
+          <div class="clip-footer">
+            <span class="clip-stamp verified">VERIFIED PRODUCTION</span>
+            <a href="https://github.com" class="clip-link" target="_blank" rel="noreferrer" aria-label="View StudyPlanner project">
+              <b>01</b>
+              <span class="link-arrow">↗</span>
+            </a>
+          </div>
+        </article>
+
+        <!-- Card 2 -->
+        <article class="clipping clip-2">
+          <div class="clip-header">
+            <span class="clip-newspaper-title">SYSTEMS GAZETTE</span>
+            <span class="clip-edition">ED. 2026 // WEB</span>
+          </div>
+          <p class="clip-meta">DISTRIBUTED PLATFORM · ENTERPRISE</p>
+          <h3>Project Atlas</h3>
+          <p class="clip-desc">An operational command terminal unifying telemetry, deployment orchestration, and pipeline metrics across multi-region serverless clusters.</p>
+          <div class="clip-tags">
+            <span>React</span>
+            <span>Node.js</span>
+            <span>WebSocket</span>
+            <span>Docker</span>
+          </div>
+          <div class="clip-footer">
+            <span class="clip-stamp scale">SCALED 10K+ DAU</span>
+            <a href="https://github.com" class="clip-link" target="_blank" rel="noreferrer" aria-label="View Project Atlas">
+              <b>02</b>
+              <span class="link-arrow">↗</span>
+            </a>
+          </div>
+        </article>
+
+        <!-- Card 3 -->
+        <article class="clipping clip-3">
+          <div class="clip-header">
+            <span class="clip-newspaper-title">CREATIVE CODE CHRONICLE</span>
+            <span class="clip-edition">ED. 2025 // LAB</span>
+          </div>
+          <p class="clip-meta">EXPERIMENT · REALTIME AUDIO</p>
+          <h3>Signal Lab</h3>
+          <p class="clip-desc">High-framerate visual synthesis workbench utilizing Web Audio APIs, GPU compute shaders, and kinetic typography for music artists.</p>
+          <div class="clip-tags">
+            <span>Three.js</span>
+            <span>Web Audio</span>
+            <span>GLSL Shaders</span>
+          </div>
+          <div class="clip-footer">
+            <span class="clip-stamp exp">60 FPS REALTIME</span>
+            <a href="https://github.com" class="clip-link" target="_blank" rel="noreferrer" aria-label="View Signal Lab">
+              <b>03</b>
+              <span class="link-arrow">↗</span>
+            </a>
+          </div>
+        </article>
+
+        <!-- Card 4 -->
+        <article class="clipping clip-4">
+          <div class="clip-header">
+            <span class="clip-newspaper-title">CALM UTILITY POST</span>
+            <span class="clip-edition">ED. 2025 // APP</span>
+          </div>
+          <p class="clip-meta">MOBILE INTERFACE · UTILITY</p>
+          <h3>Quiet Hours</h3>
+          <p class="clip-desc">An intentional micro-utility designed to protect cognitive bandwidth through deliberate constraints, haptic cues, and zero notification hooks.</p>
+          <div class="clip-tags">
+            <span>React Native</span>
+            <span>Expo</span>
+            <span>SQLite</span>
+          </div>
+          <div class="clip-footer">
+            <span class="clip-stamp pure">ZERO TRACKING</span>
+            <a href="https://github.com" class="clip-link" target="_blank" rel="noreferrer" aria-label="View Quiet Hours">
+              <b>04</b>
+              <span class="link-arrow">↗</span>
+            </a>
+          </div>
+        </article>
+      </div>
+
+      <!-- Steaming Cutting Chai Illustration -->
+      <div class="chai-container" aria-hidden="true">
+        <img class="chai" src="assets/chai-BK6eNSgj.webp" alt="Steaming cup of cutting chai">
+        <div class="chai-steam steam-1"></div>
+        <div class="chai-steam steam-2"></div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         4 · DRAWER PRONITES — Violet Continuous Streams & Mystery Clue Box
+         ========================================================================= -->
+    <section id="stack" class="drawer drawer-violet" aria-labelledby="stack-title">
+      <!-- Header with neon subtitle -->
+      <div class="violet-title-wrap">
+        <p class="kicker gold text-center">03 // Core Competencies & Architecture</p>
+        <h2 class="violet-title" id="stack-title">
+          THE STACK
+          <span class="violet-title-sub">NEVER SITS STILL</span>
+        </h2>
+      </div>
+
+      <!-- 4-Column Opposing Marquee Lanes -->
+      <div class="lanes" aria-label="Technical Skill Marquee Lanes">
+        <!-- Lane 1: Tools & Web -->
+        <div class="lane lane-down lane-1">
+          <div class="lane-group">
+            <div class="artist-card">
+              <span class="card-badge">[01 // CORE]</span>
+              <div class="card-glyph">⚛</div>
+              <div class="card-info">
+                <span class="card-tier">DAILY DRIVER</span>
+                <b>React.js</b>
+              </div>
+            </div>
+            <div class="artist-card">
+              <span class="card-badge">[01 // TYPE]</span>
+              <div class="card-glyph">🔷</div>
+              <div class="card-info">
+                <span class="card-tier">STRICT TYPES</span>
+                <b>TypeScript</b>
+              </div>
+            </div>
+            <div class="artist-card">
+              <span class="card-badge">[01 // SSR]</span>
+              <div class="card-glyph">▲</div>
+              <div class="card-info">
+                <span class="card-tier">FULL STACK</span>
+                <b>Next.js</b>
+              </div>
+            </div>
+            <!-- Duplicate for infinite seamless marquee loop -->
+            <div class="artist-card">
+              <span class="card-badge">[01 // CORE]</span>
+              <div class="card-glyph">⚛</div>
+              <div class="card-info">
+                <span class="card-tier">DAILY DRIVER</span>
+                <b>React.js</b>
+              </div>
+            </div>
+            <div class="artist-card">
+              <span class="card-badge">[01 // TYPE]</span>
+              <div class="card-glyph">🔷</div>
+              <div class="card-info">
+                <span class="card-tier">STRICT TYPES</span>
+                <b>TypeScript</b>
+              </div>
+            </div>
+            <div class="artist-card">
+              <span class="card-badge">[01 // SSR]</span>
+              <div class="card-glyph">▲</div>
+              <div class="card-info">
+                <span class="card-tier">FULL STACK</span>
+                <b>Next.js</b>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Lane 2: Backend & Distributed -->
+        <div class="lane lane-up lane-2">
+          <div class="lane-group">
+            <div class="artist-card">
+              <span class="card-badge">[02 // CLOUD]</span>
+              <div class="card-glyph">🔥</div>
+              <div class="card-info">
+                <span class="card-tier">SERVERLESS</span>
+                <b>Firebase</b>
+              </div>
+            </div>
+            <div class="artist-card">
+              <span class="card-badge">[02 // ENGINE]</span>
+              <div class="card-glyph">🟢</div>
+              <div class="card-info">
+                <span class="card-tier">RUNTIME</span>
+                <b>Node.js</b>
+              </div>
+            </div>
+            <div class="artist-card">
+              <span class="card-badge">[02 // API]</span>
+              <div class="card-glyph">⚡</div>
+              <div class="card-info">
+                <span class="card-tier">CONTRACTS</span>
+                <b>REST & GraphQL</b>
+              </div>
+            </div>
+            <!-- Duplicate loop -->
+            <div class="artist-card">
+              <span class="card-badge">[02 // CLOUD]</span>
+              <div class="card-glyph">🔥</div>
+              <div class="card-info">
+                <span class="card-tier">SERVERLESS</span>
+                <b>Firebase</b>
+              </div>
+            </div>
+            <div class="artist-card">
+              <span class="card-badge">[02 // ENGINE]</span>
+              <div class="card-glyph">🟢</div>
+              <div class="card-info">
+                <span class="card-tier">RUNTIME</span>
+                <b>Node.js</b>
+              </div>
+            </div>
+            <div class="artist-card">
+              <span class="card-badge">[02 // API]</span>
+              <div class="card-glyph">⚡</div>
+              <div class="card-info">
+                <span class="card-tier">CONTRACTS</span>
+                <b>REST & GraphQL</b>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Lane 3: Visual Craft & Motion -->
+        <div class="lane lane-down lane-3">
+          <div class="lane-group">
+            <div class="artist-card">
+              <span class="card-badge">[03 // UI/UX]</span>
+              <div class="card-glyph">🎨</div>
+              <div class="card-info">
+                <span class="card-tier">DESIGN SYSTEMS</span>
+                <b>Figma</b>
+              </div>
+            </div>
+            <div class="artist-card">
+              <span class="card-badge">[03 // MOTION]</span>
+              <div class="card-glyph">🎬</div>
+              <div class="card-info">
+                <span class="card-tier">GSAP / FRAMER</span>
+                <b>Motion Design</b>
+              </div>
+            </div>
+            <div class="artist-card">
+              <span class="card-badge">[03 // STYLE]</span>
+              <div class="card-glyph">💎</div>
+              <div class="card-info">
+                <span class="card-tier">MODERN CSS</span>
+                <b>Tailwind & SCSS</b>
+              </div>
+            </div>
+            <!-- Duplicate loop -->
+            <div class="artist-card">
+              <span class="card-badge">[03 // UI/UX]</span>
+              <div class="card-glyph">🎨</div>
+              <div class="card-info">
+                <span class="card-tier">DESIGN SYSTEMS</span>
+                <b>Figma</b>
+              </div>
+            </div>
+            <div class="artist-card">
+              <span class="card-badge">[03 // MOTION]</span>
+              <div class="card-glyph">🎬</div>
+              <div class="card-info">
+                <span class="card-tier">GSAP / FRAMER</span>
+                <b>Motion Design</b>
+              </div>
+            </div>
+            <div class="artist-card">
+              <span class="card-badge">[03 // STYLE]</span>
+              <div class="card-glyph">💎</div>
+              <div class="card-info">
+                <span class="card-tier">MODERN CSS</span>
+                <b>Tailwind & SCSS</b>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Lane 4: Engineering Rigor & A11y -->
+        <div class="lane lane-up lane-4">
+          <div class="lane-group">
+            <div class="artist-card">
+              <span class="card-badge">[04 // PERF]</span>
+              <div class="card-glyph">🚀</div>
+              <div class="card-info">
+                <span class="card-tier">CORE WEB VITALS</span>
+                <b>Web Performance</b>
+              </div>
+            </div>
+            <div class="artist-card">
+              <span class="card-badge">[04 // TEST]</span>
+              <div class="card-glyph">🧪</div>
+              <div class="card-info">
+                <span class="card-tier">UNIT & E2E</span>
+                <b>Vitest / Playwright</b>
+              </div>
+            </div>
+            <div class="artist-card">
+              <span class="card-badge">[04 // A11Y]</span>
+              <div class="card-glyph">♿</div>
+              <div class="card-info">
+                <span class="card-tier">WCAG 2.1 AA</span>
+                <b>Semantic Access</b>
+              </div>
+            </div>
+            <!-- Duplicate loop -->
+            <div class="artist-card">
+              <span class="card-badge">[04 // PERF]</span>
+              <div class="card-glyph">🚀</div>
+              <div class="card-info">
+                <span class="card-tier">CORE WEB VITALS</span>
+                <b>Web Performance</b>
+              </div>
+            </div>
+            <div class="artist-card">
+              <span class="card-badge">[04 // TEST]</span>
+              <div class="card-glyph">🧪</div>
+              <div class="card-info">
+                <span class="card-tier">UNIT & E2E</span>
+                <b>Vitest / Playwright</b>
+              </div>
+            </div>
+            <div class="artist-card">
+              <span class="card-badge">[04 // A11Y]</span>
+              <div class="card-glyph">♿</div>
+              <div class="card-info">
+                <span class="card-tier">WCAG 2.1 AA</span>
+                <b>Semantic Access</b>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Horizon Ground Overlay -->
+      <div class="violet-solid-bottom" aria-hidden="true"></div>
+
+      <!-- Lower Control Grid: Mystery Clue Box + Center Badge + Hints -->
+      <div class="violet-lower-grid">
+        <!-- Mystery Box State Machine -->
+        <button class="guess-box" type="button" aria-expanded="false" title="Click to reveal secret project">
+          <span class="guess-idle">
+            <i class="shake-mark">?</i>
+            <span class="guess-txt">SECRET RESEARCH<br><b>TAP TO UNLOCK ✦</b></span>
+          </span>
+          <span class="guess-loading" aria-hidden="true">
+            <span class="spinner-ring"></span>
+            <span class="spinner-label">QUERYING MEMORY...</span>
+          </span>
+          <span class="guess-reveal">
+            <span class="reveal-badge">DECRYPTED ✦ Q3 2026</span>
+            <span class="reveal-title">AGENTIC WORKSPACES</span>
+            <span class="reveal-desc">Autonomous multi-agent coding engines & interactive web runtime synthesizers.</span>
+          </span>
+        </button>
+
+        <!-- Center Festival Radio Seal (Fills the desktop void) -->
+        <div class="stack-center-seal" aria-hidden="true">
+          <div class="seal-icon">📻</div>
+          <span class="seal-badge">FREQUENCY 104.9 FM</span>
+          <b class="seal-slogan">ZERO-JANK ARCHITECTURE</b>
+          <span class="seal-stats">24 FPS MOTION · 99.9% ACCURACY</span>
+        </div>
+
+        <!-- Hints & Guidelines -->
+        <div class="hints-wrapper">
+          <div class="hints-head">
+            <span class="hints-indicator">✦</span>
+            <b>DISPATCH PROTOCOLS</b>
+          </div>
+          <ul class="hints">
+            <li><b>Hover or hold</b> any lane to pause the technology stream.</li>
+            <li>Zero frameworks for the sake of hype — chosen strictly for business impact.</li>
+            <li>Production tested across high-concurrency client workloads.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         5 · DRAWER EVENTS — Sapphire Blue 3D Stacked Deck & Radio
+         ========================================================================= -->
+    <section id="lab" class="drawer drawer-cobalt" aria-labelledby="lab-title">
+      <!-- 3D Card Stack Container -->
+      <div class="deck-container">
+        <div class="deck" aria-live="polite">
+          <!-- Card 1 -->
+          <article class="deck-card is-active" data-index="0" data-note="A focused learning workspace built for high-throughput cognitive mastery, adapting dynamically to user retention and scheduling friction.">
+            <img src="assets/tech-art-DqyyBUMF.webp" alt="Technology and Systems Architecture">
+            <div class="deck-overlay">
+              <div class="deck-overlay-info">
+                <span class="deck-cat">AI / SYSTEMS ARCHITECTURE</span>
+                <h3 class="deck-name">StudyPlanner Core</h3>
+              </div>
+              <span class="deck-fraction">01 / 04</span>
+            </div>
+          </article>
+
+          <!-- Card 2 -->
+          <article class="deck-card is-next-1" data-index="1" data-note="An operational command terminal unifying telemetry, deployment orchestration, and pipeline metrics across multi-region serverless clusters.">
+            <img src="assets/business-art-BEC61Wxe.webp" alt="Enterprise Platform Systems">
+            <div class="deck-overlay">
+              <div class="deck-overlay-info">
+                <span class="deck-cat">DISTRIBUTED / CLOUD INFRA</span>
+                <h3 class="deck-name">Project Atlas</h3>
+              </div>
+              <span class="deck-fraction">02 / 04</span>
+            </div>
+          </article>
+
+          <!-- Card 3 -->
+          <article class="deck-card is-next-2" data-index="2" data-note="A real-time creative workbench exploring generative shaders, Web Audio synthesizer graphs, and kinetic physical interfaces.">
+            <img src="assets/gaming-art-DgryPK9d.webp" alt="Creative Code and Shaders">
+            <div class="deck-overlay">
+              <div class="deck-overlay-info">
+                <span class="deck-cat">CREATIVE CODE / GLSL</span>
+                <h3 class="deck-name">Signal Lab</h3>
+              </div>
+              <span class="deck-fraction">03 / 04</span>
+            </div>
+          </article>
+
+          <!-- Card 4 -->
+          <article class="deck-card is-next-3" data-index="3" data-note="A calm mobile digital sanctuary protecting focus through deliberate physical constraints, haptic feedback, and offline persistence.">
+            <img src="assets/lifestyle-art-CydCd3Np.webp" alt="Calm Mobile Product Design">
+            <div class="deck-overlay">
+              <div class="deck-overlay-info">
+                <span class="deck-cat">MOBILE / WELLBEING</span>
+                <h3 class="deck-name">Quiet Hours</h3>
+              </div>
+              <span class="deck-fraction">04 / 04</span>
+            </div>
+          </article>
+        </div>
+
+        <!-- Controls Dial -->
+        <div class="deck-dial">
+          <button class="dial-btn dial-prev" type="button" aria-label="Previous project">
+            <span class="dial-arrow">←</span>
+          </button>
+          
+          <div class="deck-progress-track">
+            <div class="deck-progress-fill" style="width: 25%;"></div>
+          </div>
+
+          <div class="deck-counter-badge">
+            <strong class="deck-current">01</strong>
+            <span class="deck-sep">/</span>
+            <span class="deck-total">04</span>
+          </div>
+
+          <button class="dial-btn dial-next" type="button" aria-label="Next project">
+            <span class="dial-arrow">→</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Right Column: Broadcast Copy, Audio Waves & Pulsing Radio -->
+      <div class="cobalt-copy">
+        <p class="kicker gold">04 // Featured Case Studies</p>
+        <h2 id="lab-title">TUNE INTO<br>THE <em>BROADCAST</em></h2>
+        <p class="deck-note" aria-live="polite">A focused learning workspace built for high-throughput cognitive mastery, adapting dynamically to user retention and scheduling friction.</p>
+        
+        <div class="deck-cta-group">
+          <a class="btn btn-gold" href="#work">READ FULL CASE STUDY ↗</a>
+          <a class="deck-secondary-link" href="https://github.com" target="_blank" rel="noreferrer">VIEW SOURCE ON GITHUB ↗</a>
+        </div>
+      </div>
+
+      <!-- Animated Vintage Radio with Equalizer Waves -->
+      <div class="radio-wrap">
+        <img class="radio" src="assets/radio-Cb_xHEa1.webp" alt="Illustrated retro transistor radio">
+        <div class="radio-soundwaves" aria-hidden="true">
+          <span class="wave bar-1"></span>
+          <span class="wave bar-2"></span>
+          <span class="wave bar-3"></span>
+          <span class="wave bar-4"></span>
+          <span class="wave bar-5"></span>
+        </div>
+      </div>
+
+      <!-- Dual Opposite-Direction Continuous Marquee Ribbons -->
+      <div class="cobalt-ticker-stripe" aria-hidden="true">
+        <div class="ticker ticker-left">
+          <div class="ticker-track">
+            <span>AVAILABLE FOR SELECT PRODUCTS ✦ SCALABLE ARCHITECTURES ✦ CLEAN DESIGN SYSTEMS ✦ AVAILABLE FOR SELECT PRODUCTS ✦ SCALABLE ARCHITECTURES ✦ CLEAN DESIGN SYSTEMS ✦</span>
+            <span>AVAILABLE FOR SELECT PRODUCTS ✦ SCALABLE ARCHITECTURES ✦ CLEAN DESIGN SYSTEMS ✦ AVAILABLE FOR SELECT PRODUCTS ✦ SCALABLE ARCHITECTURES ✦ CLEAN DESIGN SYSTEMS ✦</span>
+          </div>
+        </div>
+        <div class="ticker ticker-right">
+          <div class="ticker-track">
+            <span>FULL STACK MASTERY ✦ HIGH-FPS MOTION ✦ ACCESSIBLE WCAG 2.1 ✦ TYPESCRIPT RIGOR ✦ FULL STACK MASTERY ✦ HIGH-FPS MOTION ✦ ACCESSIBLE WCAG 2.1 ✦ TYPESCRIPT RIGOR ✦</span>
+            <span>FULL STACK MASTERY ✦ HIGH-FPS MOTION ✦ ACCESSIBLE WCAG 2.1 ✦ TYPESCRIPT RIGOR ✦ FULL STACK MASTERY ✦ HIGH-FPS MOTION ✦ ACCESSIBLE WCAG 2.1 ✦ TYPESCRIPT RIGOR ✦</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         6 · DRAWER STATS — Aged Parchment Ivory & Dynamic Crowd Layers
+         ========================================================================= -->
+    <section id="stats" class="drawer drawer-stats" aria-labelledby="stats-title">
+      <div class="stats-header">
+        <p class="kicker wine">05 // Quantitative Milestones</p>
+        <h2 id="stats-title" class="stats-title">
+          <span class="stats-title-top">IMPACT BY THE</span>
+          <span class="stats-title-bottom">NUMBERS</span>
+        </h2>
+      </div>
+
+      <!-- Metrics Grid with Cubic Ease-out Counting -->
+      <div class="metrics">
+        <div class="metric-card">
+          <b class="metric-num"><span data-count="24">0</span><span class="metric-suffix">+</span></b>
+          <p class="metric-label">SHIPPED PRODUCTS<br><span>IN PRODUCTION</span></p>
+        </div>
+        <div class="metric-card">
+          <b class="metric-num"><span data-count="100">0</span><span class="metric-suffix">K+</span></b>
+          <p class="metric-label">LINES OF AUDITED<br><span>TYPESCRIPT CODE</span></p>
+        </div>
+        <div class="metric-card">
+          <b class="metric-num"><span data-count="10">0</span><span class="metric-suffix">M+</span></b>
+          <p class="metric-label">API REQUESTS<br><span>ORCHESTRATED</span></p>
+        </div>
+        <div class="metric-card">
+          <b class="metric-num"><span data-count="99">0</span><span class="metric-suffix">.9%</span></b>
+          <p class="metric-label">SYSTEM UPTIME<br><span>& RELIABILITY</span></p>
+        </div>
+      </div>
+
+      <!-- 4-Stage Crowd Silhouette Container -->
+      <div class="crowd-container" aria-hidden="true">
+        <img class="crowd crowd-1" src="assets/crowd-1-aligned-COdN-B_t.webp" alt="">
+        <img class="crowd crowd-2" src="assets/crowd-2-aligned-B7ivH9RI.webp" alt="">
+        <img class="crowd crowd-3" src="assets/crowd-3-aligned-DWFlm4I-.webp" alt="">
+        <img class="crowd crowd-4 is-active" src="assets/crowd-4-aligned-BTlCVLfW.webp" alt="Audience and crowd silhouette celebration">
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         7 · DRAWER 3 — Golden Saffron Journey (Red Fort & Delhi Auto)
+         ========================================================================= -->
+    <section id="journey" class="drawer-saffron" aria-labelledby="journey-title">
+      <img class="redfort" src="assets/redfort-Dhl6qVvb.svg" alt="Historic Delhi Red Fort illustration">
+      <img class="smoke" src="assets/smoke-FULtZi88.webp" alt="Atmospheric billowing smoke" aria-hidden="true">
+
+      <!-- Delhi Auto Rickshaw with Blinking Headlights -->
+      <div class="auto-rickshaw-wrap" aria-hidden="true">
+        <div class="auto-body-wrap">
+          <div class="auto-chassis">
+            <span class="auto-emblem">🛺</span>
+          </div>
+          <div class="auto-headlight headlight-1"></div>
+          <div class="auto-headlight headlight-2"></div>
+        </div>
+      </div>
+
+      <div class="journey-copy">
+        <p class="kicker text-shadow-sm">06 // Professional Trajectory</p>
+        <h2 id="journey-title">
+          <span>REACH</span>
+          <span class="journey-dot">✦</span>
+          <span>BUILD</span>
+          <span class="journey-dot">✦</span>
+          <span>DISCOVER</span>
+        </h2>
+        <p class="journey-deck">A focused journey from early curiosity and open-source contributions to architecting production platforms deployed globally. Every step was learned by breaking things down and rebuilding them better.</p>
+        
+        <!-- Timeline milestones -->
+        <div class="journey-timeline">
+          <div class="timeline-stop">
+            <span class="stop-year">2024–PRES</span>
+            <b class="stop-role">Lead Full Stack & Product Architect</b>
+            <span class="stop-place">Independent & High-Growth Startups</span>
+          </div>
+          <div class="timeline-stop">
+            <span class="stop-year">2023–2024</span>
+            <b class="stop-role">Senior Frontend & Systems Engineer</b>
+            <span class="stop-place">Distributed Web Platforms</span>
+          </div>
+          <div class="timeline-stop">
+            <span class="stop-year">2022–2023</span>
+            <b class="stop-role">Creative Developer & Open Source</b>
+            <span class="stop-place">Interactive Design & Tools</span>
+          </div>
+        </div>
+
+        <div class="journey-actions">
+          <a class="btn btn-primary" href="mailto:hello@example.com">START A CONVERSATION ↗</a>
+          <a class="journey-resume-link" href="#" download>DOWNLOAD CURRICULUM VITAE ↓</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- =========================================================================
+       8 · FOOTER — Monolithic Obsidian Black Heritage Ground
+       ========================================================================= -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <p class="footer-title">MANTHAN RAJPUT</p>
+        <p class="footer-tagline">FULL STACK ARCHITECT ✦ CREATIVE DEVELOPER</p>
+        <p class="footer-meta">NEW DELHI, INDIA · UTC +05:30 · AVAILABLE WORLDWIDE</p>
+        
+        <div class="footer-clock">
+          <span class="live-pulse"></span>
+          <span class="clock-display" id="delhi-clock">17:45:00 IST</span>
+        </div>
+      </div>
+
+      <div class="footer-contact">
+        <h3 class="footer-heading">GET IN TOUCH</h3>
+        <p class="footer-email"><a href="mailto:hello@example.com">hello@example.com</a></p>
+        <nav class="footer-social" aria-label="Social Profiles">
+          <a href="https://github.com" target="_blank" rel="noreferrer">GitHub ↗</a>
+          <a href="https://linkedin.com" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+          <a href="https://x.com" target="_blank" rel="noreferrer">X / Twitter ↗</a>
+          <a href="#" download>Résumé PDF ↓</a>
+        </nav>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p class="footer-copy">© 2026 MANTHAN RAJPUT. DESIGNED & CODED FROM SCRATCH.</p>
+      <button class="back-to-top" type="button" aria-label="Scroll back to top of page">
+        <span>TOP OF PAGE</span>
+        <span class="top-arrow">↑</span>
+      </button>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

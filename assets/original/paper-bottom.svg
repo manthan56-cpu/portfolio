@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3000 200" fill="none">
+  <defs>
+    <path id="tear" d="M0 0 H3000 V96 L2940 142 L2900 84 L2840 152 L2780 90 L2720 158 L2660 92 L2600 146 L2540 86 L2480 160 L2420 94 L2360 150 L2300 82 L2240 156 L2180 90 L2120 144 L2060 88 L2000 162 L1940 96 L1880 148 L1820 84 L1760 154 L1700 92 L1640 142 L1580 86 L1520 158 L1460 90 L1400 150 L1340 84 L1280 156 L1220 92 L1160 146 L1100 88 L1040 160 L980 94 L920 148 L860 82 L800 154 L740 90 L680 144 L620 86 L560 158 L500 92 L440 150 L380 84 L320 156 L260 90 L200 146 L140 88 L80 152 L0 96 Z"/>
+    <pattern id="fiber" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="6" cy="6" r="2.6" fill="#090909" fill-opacity=".12"/>
+    </pattern>
+  </defs>
+  <g transform="translate(0 200) scale(1 -1)">
+    <use href="#tear" fill="#f5edd8"/>
+    <use href="#tear" fill="url(#fiber)"/>
+    <use href="#tear" fill="none" stroke="#090909" stroke-opacity=".38" stroke-width="7"/>
+  </g>
+</svg>
